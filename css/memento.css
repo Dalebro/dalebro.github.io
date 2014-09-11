@@ -28,11 +28,12 @@
 /* =================== START MEMENTO =================== */
 /* ============= Main code is in style.css ============= */
 html {
-  background-color: #2b2b2b;
+  background-color: #27446E;
 }
 /* === TYPOGRAPHY */
 body {
   font-family: 'Droid Sans', Arial, Helvetica, sans-serif;
+  
 }
 body,
 p,
@@ -58,7 +59,7 @@ h5,
 h6 {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  color: #2b2b2b;
+  color: #27446E;
 }
 h1,
 h2 {
@@ -98,7 +99,7 @@ blockquote {
   padding: 20px 0;
 }
 #primary {
-  padding-top: 20px;
+  padding-top: 0px;
 }
 #content {
   padding-bottom: 20px;
@@ -110,7 +111,7 @@ blockquote {
 #footer {
   clear: both;
 }
-.boxed-layout #header .inner,
+.boxed-layout  .inner,
 .boxed-layout #slider,
 .boxed-layout .home-row .widget,
 .boxed-layout .home-section {
@@ -122,12 +123,13 @@ blockquote {
 /* ====================== START STRETCHED LAYOUT ====================== */
 .stretched-layout {
   /* === STRETCHED LAYOUT RESET */
-
+/* background-color: #39474b; */
 }
 .stretched-layout #header {
   margin-top: 0;
   padding-top: 0;
-  background-color: #2b2b2b;
+  
+  background-color: #27446E;
 }
 .stretched-layout #primary {
   -webkit-border-top-left-radius: 0;
@@ -433,7 +435,11 @@ blockquote {
 /* ====================== END TOPBAR ====================== */
 /* ====================== START HEADER ====================== */
 #header .inner {
-  background-color: #2b2b2b;
+/*    background-color: #27446E;
+/*    background-color: #2b2b2b;*/
+    background-color: #27446E;
+
+
   -webkit-border-top-left-radius: 0px;
   -moz-border-radius-topleft: 0px;
   border-top-left-radius: 0px;
@@ -517,7 +523,7 @@ blockquote {
 }
 #nav > ul > li > a,
 #nav > .menu > ul > li > a {
-  background-color: #2b2b2b;
+  background-color: #27446E;
   display: block;
   font-size: 12px;
   min-height: 42px;
@@ -560,7 +566,7 @@ blockquote {
 #nav > .menu > ul a {
   display: block;
   position: relative;
-  background-color: #2b2b2b;
+  background-color: #27446E;
   transition: background 0.4s ease;
   -webkit-transition: background 0.4s ease;
   -o-transition: background 0.4s ease;
@@ -624,7 +630,7 @@ blockquote {
 #nav > ul ul,
 #nav > .menu > ul ul {
   font-size: 12px;
-  background: #2b2b2b;
+  background: #27446E;
   padding: 0px;
   border-top: 1px solid #111111;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -776,6 +782,7 @@ li.sfHover > a > .sf-sub-indicator {
 /* ====================== START SLIDER ====================== */
 /* ====================== START PAGE META ====================== */
 #page_meta {
+	
   background-color: #fff;
   -webkit-border-top-left-radius: 0px;
   -moz-border-radius-topleft: 0px;
@@ -1109,6 +1116,7 @@ li.sfHover > a > .sf-sub-indicator {
 #primary .inner {
   font-size: 12px;
   padding: 0;
+  background-color: #ffffff;
 }
 /* === SIDEBAR */
 #sidebar .widget {
@@ -1727,7 +1735,7 @@ h3#reply-title {
 /* ====================== END FOOTER ====================== */
 /* ====================== START COPYRIGHT ====================== */
 #copyright {
-  background-color: #2b2b2b;
+  background-color: #27446E;
   color: #fff;
 }
 #copyright a.socials {

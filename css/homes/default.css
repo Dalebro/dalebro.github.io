@@ -1,4 +1,5 @@
 <style type="text/css">#topbar .topbar-right .topbar-level-1 li a:hover, #topbar .topbar-right .topbar-level-1 li.login_link:hover i { color:#fff; }
+
 #nav > ul a, #nav > .menu > ul a { background-color:#232323; }
 #nav > ul ul a, #nav > .menu > ul ul a { border-top-color:#3D3D3D; }
 #nav > ul ul a, #nav > .menu > ul ul a { border-bottom-color:#0A0A0A; }
@@ -11,7 +12,9 @@ h6 { color:#030303; }
 h1 span, h2 span, h3 span, h4 span, h5 span, h6 span { color:#D48303; }
 .hentry-post .post-title a { color:#2B2828; }
 .hentry-post .post-title { font-size:22px; }
-.ei-slider {height:400px;}body { background:#fff url('../../images/backgrounds/032.jpg') repeat top center fixed; }
+/*.ei-slider {height:400px;}body { color:#E8F2FF; }*/
+.ei-slider {height:400px;}body { background:#fff url('../../images/backgrounds/045.jpg') repeat top center fixed; }
+
 body { background-color:#fff; }
 #header { background:; }    #header .inner {
         -webkit-border-bottom-left-radius: 0px; -moz-border-radius-bottomleft: 0px; border-bottom-left-radius: 0px;
