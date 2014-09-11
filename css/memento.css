@@ -80,17 +80,18 @@ blockquote {
 /* ====================== START MAIN STRUCTURE ====================== */
 /* ==== Widths, heights, floats and margins of all basic sections === */
 #topbar {
-  height: 40px;
+  height: 20px;
 }
 #header {
   min-height: 85px;
-  padding-top: 30px;
+  padding-top: 10px;
 }
 #logo {
   margin: 10px 0;
 }
 #nav {
   float: right;
+  font-size: 48px;
 }
 #page_meta {
   margin-bottom: 15px;
