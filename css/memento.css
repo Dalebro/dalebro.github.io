@@ -277,10 +277,10 @@ blockquote {
   border-bottom-right-radius: 0px;
 }
 .stretched-layout #slider.thumbnails .showcase-thumbnail-container {
-  margin-top: -50px !important;
+  margin-top: -10px !important;
 }
 .stretched-layout #slider.thumbnails .showcase-text {
-  bottom: 50px;
+  bottom:5px;
 }
 .stretched-layout #slider.nivoSlider {
   height: auto;
