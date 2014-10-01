@@ -3,10 +3,10 @@
 /* === GENERAL COLORS */
 /* === GENERAL FONTS */
 .general-font-family {
-  font-family: 'Droid Sans', Arial, Helvetica, sans-serif;
+  font-family: 'Droid Sans', Arial, Calibri, ,Cambria;
 }
 .title-font-family {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Calibri, ,Cambria;
   font-weight: bold;
 }
 /* === TOP BAR COLORS */
@@ -32,7 +32,7 @@ html {
 }
 /* === TYPOGRAPHY */
 body {
-  font-family: 'Droid Sans', Arial, Helvetica, sans-serif;
+  font-family: 'Droid Sans', Arial,Calibri, ,Cambria;
   
 }
 body,
@@ -57,7 +57,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial,Calibri, ,Cambria;
   font-weight: bold;
   color: #27446E;
 }
@@ -277,10 +277,10 @@ blockquote {
   border-bottom-right-radius: 0px;
 }
 .stretched-layout #slider.thumbnails .showcase-thumbnail-container {
-  margin-top: -50px !important;
+  margin-top: -10px !important;
 }
 .stretched-layout #slider.thumbnails .showcase-text {
-  bottom: 50px;
+  bottom:5px;
 }
 .stretched-layout #slider.nivoSlider {
   height: auto;
@@ -1167,7 +1167,7 @@ li.sfHover > a > .sf-sub-indicator {
 .hentry-post .meta .edit-link {
   line-height: 21px;
   min-height: 21px;
-  font-family: 'Droid Sans', Arial, Helvetica, sans-serif;
+  font-family: 'Droid Sans', Arial, Calibri, ,Cambria;
 }
 .hentry-post .meta .date i,
 .hentry-post .meta .author i,
@@ -1510,7 +1510,7 @@ ol.trackbacklist li {
   border: 1px solid #d8d7d7;
   background-color: #fff;
   font-size: 12px;
-  font-family: 'Droid Sans', Arial, Helvetica, sans-serif;
+  font-family: 'Droid Sans', Arial,Calibri, ,Cambria;
 }
 #respond input:focus,
 #respond textarea:focus {
@@ -1523,7 +1523,7 @@ ol.trackbacklist li {
   height: 135px;
   padding: 10px;
   font-size: 12px;
-  font-family: 'Droid Sans', Arial, Helvetica, sans-serif;
+  font-family: 'Droid Sans', Arial,Calibri, ,Cambria;
 }
 /*.depth-1 #respond input, .depth-1 #respond textarea {width:374px;}
 .depth-2 #respond input, .depth-2 #respond textarea {width:334px;}
@@ -1695,7 +1695,7 @@ h3#reply-title {
   line-height: 18px;
   font-weight: bold;
   text-align: right;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Calibri, ,Cambria;
   font-weight: bold;
 }
 #footer .recent-posts .post-date .day,
