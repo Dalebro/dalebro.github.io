@@ -1234,8 +1234,8 @@ li.sfHover > a > .sf-sub-indicator {
 .blog-big .meta {
   float: left;
   font-size: 12px;
-  padding: 0 20px 10px 0;
-  width: 170px;
+  padding: 0 0px 10px 0;
+  width: 400px;
 }
 .blog-big .meta .date i {
   margin-right: 4px;
