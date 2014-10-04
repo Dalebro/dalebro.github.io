@@ -40,7 +40,9 @@
         
 	<!-- CSS Slider -->
 	<link rel="stylesheet" href="css/slider-thumbnails.css" type="text/css" media="all" />
-        
+        <!-- <link rel='stylesheet' type='text/css' media='all' href='css/slider-nivo.css' /> -->
+		<link rel='stylesheet' href='css/gallery.css' type='text/css' media='all' />
+		<link rel='stylesheet' href='css/elastislide.css' type='text/css' media='all' />
 	<link rel="stylesheet" type="text/css" media="all" href="css/homes/home.css" />
 	<link rel='stylesheet' type='text/css' media='all' href='css/slider-elegant.css' />
 	<style type="text/css">
@@ -127,43 +129,30 @@
 		<!-- END HEADER -->
         
 		<!-- SLIDER -->
-		<!-- START SLIDER -->
-		<div id="slider" class="slider_elegant group inner">
-			<ul class="group">
-				<li class="group">
-					<div class="slider-featured group">
-						<img src="images/slider-elegant/00251.jpg" width="1000" height="338" alt="WOMAN COLLECTION" />
-					</div>
-					<div class="slider-caption caption-right">
-						<h2>WOMAN COLLECTION</h2>
-						<h4></h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar turpis velit. Morbi rutrum, neque non pulvinar faucibus, ligula eros viverra ligula, et aliquam libero neque ac nisl.</p>
-						<p><span class="special-font" style="font-size:24px;">prices from <span style="font-size:42px;">$45</span></span></p>
-					</div>
-				</li>
-				<li class="group">
-					<div class="slider-featured group">
-						<img src="images/slider-elegant/cropped-0012.jpg" width="1000" height="338" alt="LOVELY AND HOT DESIGN" />
-					</div>
-					<div class="slider-caption caption-right">
-						<h2>LOVELY AND HOT DESIGN</h2>
-						<h4></h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut egestas eros eu dolor aliquet sit amet vehicula erat venenatis. Integer imperdiet, libero eget lobortis tincidunt, ligula diam dapibus est, a rhoncus metus velit tincidunt eros. Proin id sapien eu massa eleifend tempor et non orci. Aenean vehicula hendrerit convallis.</p>
-					</div>
-				</li>
-				<li class="group">
-					<div class="slider-featured group">
-						<img src="images/slider-elegant/00361.jpg" width="1000" height="352" alt="VINTAGE STYLES" />
-					</div>
-					<div class="slider-caption caption-right">
-						<h2>VINTAGE STYLES</h2>
-						<h4></h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut egestas eros eu dolor aliquet sit amet vehicula erat venenatis. Integer imperdiet, libero eget lobortis tincidunt, ligula diam dapibus est, a rhoncus metus velit tincidunt eros. Proin id sapien eu massa eleifend tempor et non orci. Aenean vehicula hendrerit convallis.</p>
-					</div>
-				</li>
-			</ul>
-		</div>
-		<!-- END SLIDER -->
+		<!-- START SLIDER -->   
+		<div id="slider" class="thumbnails group inner">   
+			<div class="showcase group">   
+   
+				<div class="showcase-slide">   
+					<div class="showcase-content">   
+						<!-- If the slide contains multiple elements you should wrap them in a div with the class   
+							.showcase-content-wrapper. We usually wrap even if there is only one element,   
+							because it looks better. -->   
+							<div class="showcase-content-wrapper">   
+								<img src="images/slider-thumbnails/001.jpg" width="1920" height="380" alt="A fresh &amp; clean design" />   
+							</div>   
+						</div>   
+						<div class="showcase-text">   
+							<h2>SOURCING</h2>   
+							<p>   
+								<p>write something here, which should customer choose us, how we can be better etc.</p>   
+							</p>   
+						</div>   
+					</div>   
+   
+				</div>   
+			</div>   
+			<!-- END SLIDER -->
 		<script type="text/javascript">      
 		var     yiw_slider_type = 'elegant',
 		yiw_slider_elegant_easing = null,
@@ -179,6 +168,7 @@
 			        
 				<div id="content" class="group">
 					<div class="page type-page status-publish hentry group">
+					
 						<span class="special-font" style="font-size:40px;"><span style="color: #000000;">What We do on  <strong><span style="color: #e2871d;">[SOURCING]</span></strong></span></span>
 						<p><font size="4">China has become the manufacturing center of the world, with thousands of factories producing a wide variety of consumer products. 
 							Dalebro gives support to companies for handling international procurement especially in Asia. </font></p>
@@ -205,12 +195,115 @@
 								
 								<img src="images/sourcing_circular_benefit.jpg" alt="Mountain View" style="width:918px;height:752px">
 							</div>
+			  
 						</div>
-			        
+		    <div id="rg-gallery" class="rg-gallery">
+		  			                <div class="rg-thumbs">
+		  			                    <!-- Elastislide Carousel Thumbnail Viewer -->
+		  			                    <div class="es-carousel-wrapper">
+		  			                        <div class="es-nav">
+		  			                            <span class="es-nav-prev">Previous</span>
+		  			                            <span class="es-nav-next">Next</span>
+		  			                        </div>
+		  			                        <div class="es-carousel">
+		  			                            <ul>
+		  			                                <li>
+		  			                                    <a href="#">
+		  			                                    <img src="images/gallery/14-65x65.jpg" data-large="images/gallery/14.jpg" alt="Photo #14" data-description="Caption for this beautiful photo" />
+		  			                                    </a>
+		  			                                </li>
+		  			                                <li>
+		  			                                    <a href="#">
+		  			                                    <img src="images/gallery/13-65x65.jpg" data-large="images/gallery/13.jpg" alt="Photo #13" data-description="" />
+		  			                                    </a>
+		  			                                </li>
+		  			                                <li>
+		  			                                    <a href="#">
+		  			                                    <img src="images/gallery/12-65x65.jpg" data-large="images/gallery/12.jpg" alt="Photo #12" data-description="" />
+		  			                                    </a>
+		  			                                </li>
+		  			                                <li>
+		  			                                    <a href="#">
+		  			                                    <img src="images/gallery/11-65x65.jpg" data-large="images/gallery/11.jpg" alt="Photo #11" data-description="" />
+		  			                                    </a>
+		  			                                </li>
+		  			                                <li>
+		  			                                    <a href="#">
+		  			                                    <img src="images/gallery/10-65x65.jpg" data-large="images/gallery/10.jpg" alt="Photo #10" data-description="" />
+		  			                                    </a>
+		  			                                </li>
+		  			                                <li>
+		  			                                    <a href="#">
+		  			                                    <img src="images/gallery/9-65x65.jpg" data-large="images/gallery/9.jpg" alt="Photo #9" data-description="" />
+		  			                                    </a>
+		  			                                </li>
+		  			                                <li>
+		  			                                    <a href="#">
+		  			                                    <img src="images/gallery/8-65x65.jpg" data-large="images/gallery/8.jpg" alt="Photo #8" data-description="" />
+		  			                                    </a>
+		  			                                </li>
+		  			                                <li>
+		  			                                    <a href="#">
+		  			                                    <img src="images/gallery/7-65x65.jpg" data-large="images/gallery/7.jpg" alt="Photo #7" data-description="" />
+		  			                                    </a>
+		  			                                </li>
+		  			                                <li>
+		  			                                    <a href="#">
+		  			                                    <img src="images/gallery/6-65x65.jpg" data-large="images/gallery/6.jpg" alt="Photo #6" data-description="" />
+		  			                                    </a>
+		  			                                </li>
+		  			                                <li>
+		  			                                    <a href="#">
+		  			                                    <img src="images/gallery/5-65x65.jpg" data-large="images/gallery/5.jpg" alt="Photo #5" data-description="" />
+		  			                                    </a>
+		  			                                </li>
+		  			                                <li>
+		  			                                    <a href="#">
+		  			                                    <img src="images/gallery/4-65x65.jpg" data-large="images/gallery/4.jpg" alt="Photo #4" data-description="" />
+		  			                                    </a>
+		  			                                </li>
+		  			                                <li>
+		  			                                    <a href="#">
+		  			                                    <img src="images/gallery/3-65x65.jpg" data-large="images/gallery/3.jpg" alt="Photo #3" data-description="" />
+		  			                                    </a>
+		  			                                </li>
+		  			                                <li>
+		  			                                    <a href="#">
+		  			                                    <img src="images/gallery/2-65x65.jpg" data-large="images/gallery/2.jpg" alt="Photo #2" data-description="" />
+		  			                                    </a>
+		  			                                </li>
+		  			                                <li>
+		  			                                    <a href="#">
+		  			                                    <img src="images/gallery/1-65x65.jpg" data-large="images/gallery/1.jpg" alt="Photo #1" data-description="" />
+		  			                                    </a>
+		  			                                </li>
+		  			                            </ul>
+		  			                        </div>
+		  			                    </div>
+		  			                </div>
+		  			            </div>
+		  			            <script type='text/javascript' src='js/jquery.tmpl.min.js'></script>
+		  				        <script type='text/javascript' src='js/jquery.elastislide.js'></script>
+		  						<script type='text/javascript' src='js/gallery.js'></script>
+		  						<script id="img-wrapper-tmpl" type="text/x-jquery-tmpl">
+		  						    <div class="rg-image-wrapper">
+		  						        {{if itemsCount > 1}}
+		  						            <div class="rg-image-nav">
+		  						                <a href="#" class="rg-image-nav-prev">Previous Image</a>
+		  						                <a href="#" class="rg-image-nav-next">Next Image</a>
+		  						            </div>
+		  						        {{/if}}
+		  						        <div class="rg-image"></div>
+		  						        <div class="rg-loading"></div>
+		  						    </div>      
+		  						    <div class="rg-caption-wrapper">
+		  						        <div class="rg-caption" style="display:none;">
+		  						            <p></p>
+		  						        </div>
+		  						    </div>
+		  						</script>      
 					
-					
-					
-					
+				
 					
 					
 						<!-- <div id="sidebar" class="group one-fourth last">
