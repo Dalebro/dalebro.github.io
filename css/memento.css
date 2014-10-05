@@ -1203,7 +1203,7 @@ li.sfHover > a > .sf-sub-indicator {
   float: right;
   padding: 0 15px;
   padding-bottom: 10px;
-  width: 500px;
+  width: 450px;
 }
 .blog-big .thumbnail .image-wrap,
 .blog-big .withoutthumbnail .image-wrap,
@@ -1233,9 +1233,9 @@ li.sfHover > a > .sf-sub-indicator {
 }
 .blog-big .meta {
   float: left;
-  font-size: 12px;
-  padding: 0 0px 10px 0;
-  width: 400px;
+  font-size: 10px;
+  padding: 0 0px 0px 0;
+  width: 480px;
 }
 .blog-big .meta .date i {
   margin-right: 4px;
