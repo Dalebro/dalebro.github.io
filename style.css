@@ -202,7 +202,7 @@ img.alignleft, img.alignright, img.aligncenter{margin-bottom:12px;}
 .header-map #map-wrap{ width: 1000px; height: 0px; overflow: hidden; }
 .header-map #map-wrap.opened{ height: 300px; }
 .header-map #map{ width: 100%; height: 300px; display: block; overflow: hidden;}
-.header-map #map-text{ background: url('images/icons/map-marker.png') 0px 8px no-repeat; padding: 8px 24px; border-bottom: 1px solid #CFCFCF; font-family: 'Calibri', 'Droid Sans', Verdana, Arial, sans-serif !important; font-size: 16px; }
+.header-map #map-text{ background: url('images/icons/map-marker.png') 0px 8px no-repeat; padding: 8px 24px; border-bottom: 1px solid #CFCFCF; font-family: Georgia, Georgia, Verdana, Georgia, sans-serif !important; font-size: 16px; }
 
 /* ====================== END MAP ====================== */
 
@@ -414,7 +414,7 @@ ul.info li  {background:url('images/icons/bullet/info.png') no-repeat center lef
 /* === TABS */
 #content .tabs-container ul.tabs {list-style-type:none;margin:0 !important;padding:0;height:40px;position:relative;z-index:1;border:1px solid #d4d4d4;background:#f9f9f9 url('images/bg/bg-tabs.png') repeat-x bottom;}
 #content .tabs-container ul.tabs li {list-style:none;}
-#content .tabs-container ul.tabs li a {font-family:Arial,Helvetica,sans-serif; color:#444;font-size:1em;height:40px;line-height:40px;display:block;float:left;text-align:center;border:1px solid #d4d4d4;border-left:0;border-top:0;padding:0 3%;}
+#content .tabs-container ul.tabs li a {font-family:Georgia,Helvetica,sans-serif; color:#444;font-size:1em;height:40px;line-height:40px;display:block;float:left;text-align:center;border:1px solid #d4d4d4;border-left:0;border-top:0;padding:0 3%;}
 #content .tabs-container ul.tabs li a:hover {background:#f9f9f9;color:#000;}
 #content .tabs-container ul.tabs li.current a {background:#fff;border-bottom:1px solid #fff;color:inherit;}  
 #content .tabs-container ul.tabs li:first-child {/*border-left:1px solid #d4d4d4 !important;*/}
@@ -445,15 +445,15 @@ ul.info li  {background:url('images/icons/bullet/info.png') no-repeat center lef
 .call-to-action .incipit h2 { margin:0; font-size:30px; line-height:38px; margin:24px 0 0; padding-top:0; } 
 .call-to-action .incipit p { color:#464444; font-size:14px; line-height:25px; margin:0; }
 .call-to-action .separate-phone { width:64px; background:url('images/icons/phone-call-to-action.png') no-repeat top left; }         
-.call-to-action .number-phone { margin-right:20px; margin-left:10px; line-height:106px; font-size:42px; color:#838383; font-weight:bold; font-family: 'Calibri', 'Droid Sans', Verdana, Arial, sans-serif; text-shadow:1px -1px 2px rgba(255,255,255,0.83); letter-spacing:-3px; } 
+.call-to-action .number-phone { margin-right:20px; margin-left:10px; line-height:106px; font-size:42px; color:#838383; font-weight:bold; font-family: Georgia, Georgia, Verdana, Georgia, sans-serif; text-shadow:1px -1px 2px rgba(255,255,255,0.83); letter-spacing:-3px; } 
 .call-to-action .decoration-image { position:absolute; right:0; bottom:0; width:100%; height:120%; background:url('images/woman.png') no-repeat right bottom; }
 
 .call-to-action-two { background:#ebeced; padding:20px; position:relative; margin-top:4em; clear:both; border: 1px solid #DDDDDD; }
 .call-to-action-two p { color:#555657; font-size:20px !important; float:left; width:75%; line-height:18px; }
 .call-to-action-two p span { color:#393b3c; }
-.call-to-action-two .call-button { display:block; float:right; padding:10px 15px; font-size:24px; font-weight:bold; font-family: 'Calibri', 'Droid Sans', Verdana, Arial, sans-serif; background:#A0A5AC; color:#fff; }
+.call-to-action-two .call-button { display:block; float:right; padding:10px 15px; font-size:24px; font-weight:bold; font-family: Georgia, Georgia, Verdana, Georgia, sans-serif; background:#A0A5AC; color:#fff; }
 .call-to-action-two .call-button:hover { background:#89909b; }
-.call-to-action-two .special-font, .call-to-action-two .special-font span {font-family:Arial,Helvetica,sans-serif\ !important;}
+.call-to-action-two .special-font, .call-to-action-two .special-font span {font-family:Georgia,Helvetica,sans-serif\ !important;}
 
 /* === TICK */
 .yiw-sc-tick { text-shadow: 0px 0px 1px #bbb; }
@@ -557,7 +557,7 @@ div.section-caption .captions br { display:none; }
 .box-sections h3 { font-size:1.4em; }
 .box-sections h1, .box-sections h2, .box-sections h3, .box-sections h4, .box-sections h5, .box-sections h6 { margin-top:0; clear:none !important; }
 .box-sections h4, .box-sections h5, .box-sections h6 { font-size:1.2em; }
-.box-sections h6, .box-sections-border h6 { margin:5px 0 22px !important; font-family:Arial,Helvetica,sans-serif; }
+.box-sections h6, .box-sections-border h6 { margin:5px 0 22px !important; font-family:Georgia,Helvetica,sans-serif; }
 .box-sections p, .box-sections-border p { clear:both } 
 .box-sections img.thumb, .box-sections-border img.thumb { width:262px; height:139px; padding:3px; border:1px solid #ccc; }
 .box-sections img.icon { float: left; margin-right: 10px; }
@@ -699,7 +699,7 @@ a.zoom { position:absolute; width:280px; height:204px; left:5px; top:5px; text-i
 #portfolio-bigimage .work-thumbnail img { height:auto !important; }
 #portfolio-bigimage .work-skillsdate  { position: absolute; bottom: 0; right: -1px; background: #fff; padding: 5px 20px 5px 10px }
 #portfolio-bigimage .work-skillsdate p { line-height: 1em; font-size: 11px; text-transform: uppercase }
-#portfolio-bigimage .work-skillsdate span { font-size: 14px; font-family: Arial, Helvetica, sans-serif; font-weight: bold; padding-right: 5px; text-transform: none }
+#portfolio-bigimage .work-skillsdate span { font-size: 14px; font-family: Georgia, Helvetica, sans-serif; font-weight: bold; padding-right: 5px; text-transform: none }
 
 
 .portfolio-slider { margin:30px 0 40px 0 }
@@ -776,7 +776,7 @@ div.ppt { display:none !important }
 
 .toggle {  } 
 .toggle p.tab-index { padding-bottom:16px; margin-bottom:10px; border-bottom:1px solid #d7d7d7; }
-.toggle p.tab-index a { font-family:Arial,Helvetica,sans-serif; font-size: 18px; display:block; line-height:22px; background:url('images/bg/toggle/head.png') left top no-repeat; padding:0 0 0 30px; cursor:pointer; color:#3e3e3e; } 
+.toggle p.tab-index a { font-family:Georgia,Helvetica,sans-serif; font-size: 18px; display:block; line-height:22px; background:url('images/bg/toggle/head.png') left top no-repeat; padding:0 0 0 30px; cursor:pointer; color:#3e3e3e; } 
 .toggle p.tab-opened a, .toggle p.tab-index a:hover { background:url('images/bg/toggle/head-active.png') left top no-repeat; }
 .toggle p.tab-index a:hover { text-decoration:none; }
 .toggle .content-tab { border-left: 1px solid #CFCFCF; margin: 0 0 20px 10px; }
@@ -838,7 +838,7 @@ div.ppt { display:none !important }
 #content .contact-form li.full label { display: block }  
 #content .contact-form li.textarea-field { clear:both; width:auto; float:none; }
 #content .contact-form label span.label { font-size:13px; }
-#content .contact-form label span.sublabel { font-family: 'Calibri', 'Droid Sans', Verdana, Arial, sans-serif; font-size: 11px; color: #9C9B9B }  
+#content .contact-form label span.sublabel { font-family: Georgia, Georgia, Verdana, Georgia, sans-serif; font-size: 11px; color: #9C9B9B }  
 #content .contact-form li.text-field input, #content .contact-form li.checkbox-field input, #content .contact-form li.file-field input, #content .contact-form li select, #content .contact-form li textarea { border:1px solid #cecbcb; margin-top:10px; padding:10px; }
 #content .contact-form li.text-field input, #content .contact-form li select { font-size: 12px; background-color:#fff; width:97.5%; }
 #content .contact-form li select { padding:10px; }
@@ -941,7 +941,7 @@ div.ppt { display:none !important }
     border-bottom: 1px solid #d4d4d4;
     color: #727171;
     cursor: pointer;
-    font-family:Arial,Helvetica,sans-serif;
+    font-family:Georgia,Helvetica,sans-serif;
     font-size: 14px !important;
     padding: 10px 16px;
     position: relative;
