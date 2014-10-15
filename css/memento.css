@@ -28,8 +28,8 @@
 /* =================== START MEMENTO =================== */
 /* ============= Main code is in style.css ============= */
 html {
-    background-color: #1959FF;
-/*    background-color: #1959FF;*/
+    background-color: #27446E;
+/*    background-color: #27446E;*/
 }
 /* === TYPOGRAPHY */
 body {
@@ -60,7 +60,7 @@ h5,
 h6 {
   font-family: Georgia,sans-Georgia ,Cambria;
   font-weight: bold;
-  color: #1959FF;
+  color: #27446E;
 }
 h1,
 h2 {
@@ -130,7 +130,7 @@ blockquote {
   margin-top: 0;
   padding-top: 0;
   
-  background-color: #1959FF;
+  background-color: #27446E;
 }
 .stretched-layout #primary {
   -webkit-border-top-left-radius: 0;
@@ -437,11 +437,11 @@ blockquote {
 /* ====================== END TOPBAR ====================== */
 /* ====================== START HEADER ====================== */
 #header .inner {
-/*    background-color: #1959FF;
+/*    background-color: #27446E;
 /*    background-color: #2b2b2b;*/
-/*    background-color: #1959FF;
+/*    background-color: #27446E;
 */
-    background-color: #1959FF;
+    background-color: #27446E;
 
   -webkit-border-top-left-radius: 0px;
   -moz-border-radius-topleft: 0px;
@@ -526,7 +526,7 @@ blockquote {
 }
 #nav > ul > li > a,
 #nav > .menu > ul > li > a {
-  background-color: #1959FF;
+  background-color: #27446E;
   display: block;
   font-size: 12px;
   min-height: 42px;
@@ -569,7 +569,7 @@ blockquote {
 #nav > .menu > ul a {
   display: block;
   position: relative;
-  background-color: #1959FF;
+  background-color: #27446E;
   transition: background 0.4s ease;
   -webkit-transition: background 0.4s ease;
   -o-transition: background 0.4s ease;
@@ -633,7 +633,7 @@ blockquote {
 #nav > ul ul,
 #nav > .menu > ul ul {
   font-size: 12px;
-  background: #1959FF;
+  background: #27446E;
   padding: 0px;
   border-top: 1px solid #111111;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -1738,7 +1738,7 @@ h3#reply-title {
 /* ====================== END FOOTER ====================== */
 /* ====================== START COPYRIGHT ====================== */
 #copyright {
-  background-color: #1959FF;
+  background-color: #27446E;
   color: #fff;
 }
 #copyright a.socials {
