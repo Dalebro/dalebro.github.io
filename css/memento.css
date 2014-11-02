@@ -3,10 +3,10 @@
 /* === GENERAL COLORS */
 /* === GENERAL FONTS */
 .general-font-family {
-  font-family:   Georgia, sans-Georgia ,Cambria;
+  font-family:Arial, Helvetica, sans-serif;
 }
 .title-font-family {
-  font-family: Georgia, sans-Georgia ,Cambria;
+  font-family:Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
 /* === TOP BAR COLORS */
@@ -33,7 +33,7 @@ html {
 }
 /* === TYPOGRAPHY */
 body {
-  font-family:   Georgia,sans-Georgia ,Cambria;
+  font-family:   'Calibri',sans-Georgia ,Cambria;
   
 }
 body,
@@ -58,7 +58,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Georgia,sans-Georgia ,Cambria;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   color: #27446E;
 }
@@ -1170,7 +1170,7 @@ li.sfHover > a > .sf-sub-indicator {
 .hentry-post .meta .edit-link {
   line-height: 21px;
   min-height: 21px;
-  font-family:   Georgia, sans-Georgia ,Cambria;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .hentry-post .meta .date i,
 .hentry-post .meta .author i,
@@ -1343,7 +1343,7 @@ li.sfHover > a > .sf-sub-indicator {
   margin: 0;
   padding: 0;
   text-align: right;
-  font-family: Georgia, Helvetica, sans-Georgia;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
 .blog-memento .date-left .month {
@@ -1513,7 +1513,7 @@ ol.trackbacklist li {
   border: 1px solid #d8d7d7;
   background-color: #fff;
   font-size: 12px;
-  font-family:   Georgia,sans-Georgia ,Cambria;
+  font-family: Arial, Helvetica, sans-serif;
 }
 #respond input:focus,
 #respond textarea:focus {
@@ -1526,7 +1526,7 @@ ol.trackbacklist li {
   height: 135px;
   padding: 10px;
   font-size: 12px;
-  font-family:   Georgia,sans-Georgia ,Cambria;
+  font-family: Arial, Helvetica, sans-serif;
 }
 /*.depth-1 #respond input, .depth-1 #respond textarea {width:374px;}
 .depth-2 #respond input, .depth-2 #respond textarea {width:334px;}
@@ -1698,7 +1698,7 @@ h3#reply-title {
   line-height: 18px;
   font-weight: bold;
   text-align: right;
-  font-family: Georgia, sans-Georgia ,Cambria;
+  font-family:Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
 #footer .recent-posts .post-date .day,
@@ -1836,7 +1836,7 @@ h3#reply-title {
   -moz-border-radius-bottomright: 0px;
   border-bottom-right-radius: 0px;
   font-size: 12px;
-  font-family:   Georgia, Helvetica, sans-Georgia;
+  font-family:Arial, Helvetica, sans-serif;
   line-height: 25px;
   height: 30px;
 }
@@ -2047,7 +2047,7 @@ pre {
   background-color: #e8ebec;
   border: 1px dotted #bbb;
   color: #333;
-  font: 13px/18px Consolas, "Courier New", Courier, monospace;
+  font: 13px/18px 'Calibri', "Courier New", Courier, monospace;
   padding: 0px 5px;
 }
 pre {
