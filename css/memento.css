@@ -283,7 +283,7 @@ blockquote {
 }
 .stretched-layout #slider.thumbnails .showcase-text {
   bottom:5px;
-}
+margin-top:100px;}
 .stretched-layout #slider.nivoSlider {
   height: auto;
 }
