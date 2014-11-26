@@ -527,8 +527,11 @@ margin-top:100px;}
 #nav > ul > li > a,
 #nav > .menu > ul > li > a {
   background-color: #27446E;
+  padding-left: 3px;
+  padding-right:15px;
+  
   display: block;
-  font-size: 12px;
+  font-size: 15px;
   min-height: 42px;
   padding-top: 43px;
   position: relative;
@@ -537,10 +540,12 @@ margin-top:100px;}
   -o-transition: background 0.4s ease;
   -moz-transition: background 0.4s ease;
 }
+
+
 #nav > ul > li > a i,
 #nav > .menu > ul > li > a i {
   display: block;
-  font-size: 20px;
+  font-size: 10px;
   position: absolute;
   top: 5px;
   right: 0px;
