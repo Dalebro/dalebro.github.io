@@ -279,10 +279,10 @@ blockquote {
   border-bottom-right-radius: 0px;
 }
 .stretched-layout #slider.thumbnails .showcase-thumbnail-container {
-  margin-top: -10px !important;
+  margin-top: 0px !important;
 }
 .stretched-layout #slider.thumbnails .showcase-text {
-  bottom:5px;
+  bottom:10px;
 margin-top:100px;}
 .stretched-layout #slider.nivoSlider {
   height: auto;
@@ -528,10 +528,10 @@ margin-top:100px;}
 #nav > .menu > ul > li > a {
   background-color: #27446E;
   padding-left: 3px;
-  padding-right:15px;
+  padding-right:1.25px;
   
   display: block;
-  font-size: 15px;
+  font-size: 12px;
   min-height: 42px;
   padding-top: 43px;
   position: relative;
