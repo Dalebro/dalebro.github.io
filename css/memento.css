@@ -528,7 +528,7 @@ margin-top:100px;}
 #nav > .menu > ul > li > a {
   background-color: #27446E;
   padding-left: 5px;
-  padding-right:8px;
+  padding-right:20px;
   
   display: block;
   font-size: 12px;
@@ -545,17 +545,17 @@ margin-top:100px;}
 #nav > ul > li > a i,
 #nav > .menu > ul > li > a i {
   display: block;
-  font-size: 10px;
+  font-size: 12px;
   position: absolute;
   top: 5px;
   right: 0px;
-  width: 100%;
+  width: 800%;
 }
 #nav > ul ul,
 #nav > .menu > ul ul {
   position: absolute;
   top: -999em;
-  width: 180px;
+  width: 120px;
 }
 #nav > ul ul li,
 #nav > .menu > ul ul li {
@@ -585,7 +585,7 @@ margin-top:100px;}
 #nav > .menu > ul li:hover ul,
 #nav > .menu > ul li.sfHover ul {
   left: 0px;
-  top: 92px;
+  top: 96px;
   /* match top ul list item height */
 
   z-index: 99;
@@ -600,9 +600,8 @@ margin-top:100px;}
 #nav > ul li li.sfHover ul,
 #nav > .menu > ul li li:hover ul,
 #nav > .menu > ul li li.sfHover ul {
-  left: 180px;
+  left: 120px;
   /* match ul width */
-
   top: 0px;
 }
 /*** navigation skin ***/
@@ -648,7 +647,7 @@ margin-top:100px;}
 #nav > ul ul a,
 #nav > .menu > ul ul a {
   margin: 0px;
-  padding: 12px 20px;
+  padding: 6px 20px;
   height: auto;
   line-height: 1.3em !important;
   color: #999;
